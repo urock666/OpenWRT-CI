@@ -11,7 +11,9 @@ https://github.com/immortalwrt/immortalwrt
 
 固件周二、周六早上4点自动编译
 
-固件信息里的时间为编译开始的时间，方便核对上游源码提交时间
+自用
+添加zerotier,vlmcsd,wol,adguardhome
+删除istore,nas,docker
 
 仅编译X64
 
