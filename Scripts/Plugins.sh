@@ -10,11 +10,11 @@ git clone --depth=1 --single-branch https://github.com/jerrykuku/luci-app-argon-
 #Design Theme
 git clone --depth=1 --single-branch https://github.com/gngpp/luci-theme-design.git
 git clone --depth=1 --single-branch https://github.com/gngpp/luci-app-design-config.git
-#Open Clash
-git clone --depth=1 --single-branch --branch "dev" https://github.com/vernesong/OpenClash.git
 #passwall2
 git clone --depth=1 --single-branch --branch "packages" https://github.com/xiaorouji/openwrt-passwall.git
 git clone --depth=1 --single-branch https://github.com/xiaorouji/openwrt-passwall2.git
+#Open Clash
+git clone --depth=1 --single-branch --branch "dev" https://github.com/vernesong/OpenClash.git
 
 #预置OpenClash内核和GEO数据
 export CORE_VER=https://raw.githubusercontent.com/vernesong/OpenClash/core/dev/core_version
