@@ -149,8 +149,8 @@ jobs:
           tag_name: ${{env.OWRT_TARGET}}_${{env.OWRT_SOURCE}}_${{env.OWRT_DATE}}
           files: ./owrt/upload/*.*
           body: |
-            自用添加zerotier,vlmcsd,wol,adguardhome
-            删除istore,nas,docker
+            自用添加zerotier,vlmcsd,wol,
+            删除istore,nas,docker,uu
             
             源码：${{env.OWRT_SOURCE}}
             平台：${{env.OWRT_TARGET}}
